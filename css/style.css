@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*box animation*/
+.animation{
+	height: 300px;
+	width: 300px;
+	background-color: green;
+	margin: auto;
+	animation: animation 2s linear infinite;
+}
+@keyframes animation{
+
+	from{
+
+		background-color: green;
+		height: 300px;
+	}
+	to{
+
+		background-color: yellow;
+		height: 400px;
+		width: 400px;
+	}
+}
+/*box animation*/
